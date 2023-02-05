@@ -1,12 +1,13 @@
 import './App.css';
-import ArraysComponent from './components/ArraysComponent';
+import ArraysComponent from './components/ArraysComponent/ArraysComponent';
+import Greeting from './components/Greeting/Greeting';
+import Profile from './components/Profile/Profile';
 
 function toUpperCase(text) {
   return text.toUpperCase() + ", ESPAÑA";
 }
 
 function App() {
-  const name = "Fran";
   const user = {
     name: "Fran",
     address: {
@@ -19,8 +20,17 @@ function App() {
 
   return (
     <div className="App">
+      <h2>Componentes</h2>
+      <Greeting name="Gonzalo"></Greeting>
+      <Greeting name="Laura"></Greeting>
+      <Greeting name="Edu"></Greeting>
+      <Greeting name={user.name}></Greeting>
+
+      <Profile nombre="Maria" descripcion="Soy programadora de webs"></Profile>
+      <Profile nombre="Carlos" descripcion="Soy mecánico en un taller de coches"></Profile>
+      <Profile nombre="Teresa" descripcion="Soy pintora profesional"></Profile>
+
       <h2>Acceso a variables y funciones</h2>
-      <p className='hi'>Hola {name}</p>
       <p>La dirección es: {toUpperCase(user.address.street)}</p>
       <p>Tu ciudad es {user.address.city}</p>
       <p>Dos más dos son: {2 + 2}</p>

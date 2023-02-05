@@ -1,0 +1,17 @@
+.profile {
+    border: 1px solid #333;
+    padding: 10px;
+    box-shadow: 2px 2px 5px #858585;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.profile__name {
+    color: blue;
+    margin: 0;
+}
+
+.profile__description {
+    color: #999;
+    margin: 0;
+}
