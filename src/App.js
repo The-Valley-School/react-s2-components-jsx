@@ -1,10 +1,25 @@
 import './App.css';
 import ArraysComponent from './components/ArraysComponent/ArraysComponent';
+import CustomButton from './components/CustomButton/CustomButton';
 import Greeting from './components/Greeting/Greeting';
 import Profile from './components/Profile/Profile';
 
 function toUpperCase(text) {
   return text.toUpperCase() + ", ESPAÑA";
+}
+
+const showMessage = () => {
+  console.log("Hola!!");
+}
+
+const showAlert = () => {
+  alert("Eyyyy!!");
+}
+
+const disturbingMessages = () => {
+  for (let i = 0; i < 5; i++) {
+    alert("Te dije que no pulsaras el botón");
+  }
 }
 
 function App() {
@@ -21,6 +36,10 @@ function App() {
   return (
     <div className="App">
       <h2>Componentes</h2>
+      <CustomButton handleClick={showMessage} text="Púlsame!"></CustomButton>
+      <CustomButton handleClick={showAlert} text="Aceptar"></CustomButton>
+      <CustomButton handleClick={disturbingMessages} text="No toques este botón"></CustomButton>
+
       <Greeting name="Gonzalo"></Greeting>
       <Greeting name="Laura"></Greeting>
       <Greeting name="Edu"></Greeting>
