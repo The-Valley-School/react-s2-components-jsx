@@ -40,7 +40,7 @@ function App() {
       <CustomButton handleClick={showAlert} text="Aceptar"></CustomButton>
       <CustomButton handleClick={disturbingMessages} text="No toques este botón"></CustomButton>
 
-      <Greeting name="Gonzalo"></Greeting>
+      <Greeting name="Gonzalo" variant="cool"></Greeting>
       <Greeting name="Laura"></Greeting>
       <Greeting name="Edu"></Greeting>
       <Greeting name={user.name}></Greeting>
