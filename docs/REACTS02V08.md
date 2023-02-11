@@ -37,7 +37,7 @@ Añade estilos al componente botón para que se vea como en la imagen que encont
 
 Recuerda que el código que hemos visto durante los vídeos puedes encontrarlo en el siguiente repositorio:
 
-[https://github.com/The-Valley-School/react-s2-components-jsx](https://github.com/The-Valley-School/react-s2-components-jsx) 
+<https://github.com/The-Valley-School/react-s2-components-jsx>
 
 **Imagen con el resultado:**
 

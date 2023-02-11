@@ -26,4 +26,4 @@ Desde nuestro componente App haremos uso de este componente pudiendo pasarle la 
 
 Recuerda que el código que hemos visto durante los vídeos puedes encontrarlo en el siguiente repositorio:
 
-[https://github.com/The-Valley-School/react-s2-components-jsx](https://github.com/The-Valley-School/react-s2-components-jsx) 
+<https://github.com/The-Valley-School/react-s2-components-jsx>
