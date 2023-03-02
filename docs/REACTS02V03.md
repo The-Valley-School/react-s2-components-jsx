@@ -1,6 +1,6 @@
-# Video 03 - JSX 2
+# JSX 2
 
-En este vídeo veremos más ejemplos de JSX, en concreto veremos cómo podemos llamar a funciones en JSX:
+En este vídeo hemos visto más ejemplos de JSX, en concreto cómo podemos llamar a funciones en JSX:
 
 ```jsx
 <p>La dirección es: {toUpperCase(user.address.street)}</p>
