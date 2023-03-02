@@ -1,6 +1,6 @@
-# Video 04 - JSX 3 y primer componente
+# JSX 3 y primer componente
 
-En este vídeo crearemos nuestro primer componente de React.
+En este vídeo hemos creado nuestro primer componente de React.
 
 La estrutura mínima de un componente de React sería esta:
 
