@@ -1,6 +1,6 @@
-# Video 05 - Componentes y props
+# Componentes y props
 
-En este vídeo trabajaremos con las props de los componentes de React. Las props en React son una forma de pasar datos de un componente padre a sus componentes hijos. Las props se utilizan para compartir información y para personalizar los componentes.
+En este vídeo hemos trabajado con las props de los componentes de React. Las props en React son una forma de pasar datos de un componente padre a sus componentes hijos. Las props se utilizan para compartir información y para personalizar los componentes.
 
 Cada componente React puede tener su propio conjunto de props que se definen como un objeto JavaScript y se pasan como un argumento al componente cuando se renderiza. Los componentes hijos pueden acceder a estas props mediante una propiedad especial de JavaScript llamada props.
 
