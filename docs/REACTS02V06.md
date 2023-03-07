@@ -1,6 +1,6 @@
 # Componente botón con callback
 
-En este vídeo veremos cómo podemos personalizar un componente para que no sólo reciba textos si no que también reciba funciones para ejecutar (callbacks).
+En este vídeo hemos visto cómo podemos personalizar un componente para que no sólo reciba textos si no que también reciba funciones para ejecutar (callbacks).
 
 Aprenderemos también a bindear el evento de click en React para que ejecute una función.
 
