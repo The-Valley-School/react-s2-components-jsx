@@ -1,6 +1,6 @@
-# Video 07 - Prop para variar el template
+# Prop para variar el template
 
-En este vídeo haremos uso de una prop para personalizar el componente Greeting, de manera que si recibe esa prop renderizará un template u otro:
+En este vídeo hemos hecho uso de una prop para personalizar el componente Greeting, de manera que si recibe esa prop renderizará un template u otro:
 
 ```jsx
 import "./Greeting.css";
