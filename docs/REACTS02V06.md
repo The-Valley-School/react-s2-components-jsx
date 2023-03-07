@@ -1,4 +1,4 @@
-# Video 06 - Componente boton con callback
+# Componente botón con callback
 
 En este vídeo veremos cómo podemos personalizar un componente para que no sólo reciba textos si no que también reciba funciones para ejecutar (callbacks).
 
