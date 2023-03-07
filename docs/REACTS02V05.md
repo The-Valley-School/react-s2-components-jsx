@@ -7,6 +7,7 @@ Cada componente React puede tener su propio conjunto de props que se definen com
 Crearemos un componente Greeting que reciba en sus props el nombre a mostrar:
 
 ```jsx
+
 <Greeting name="Gonzalo"></Greeting>
 <Greeting name="Laura"></Greeting>
 <Greeting name="Edu"></Greeting>
